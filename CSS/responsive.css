@@ -1,0 +1,67 @@
+@media screen and (max-width: 790px) {
+  :root {
+    --primario: #0d1b2a;
+    --secundario: #1e90ff;
+    --terciario: #ffffff;
+    --fondo-card: #1b263b;
+    --cardhover: #0a66c2;
+    --btns: #ff5a5f;
+    --border: #807e7e;
+  }
+  #iconomenu {
+    display: block;
+    font-size: 40px;
+  }
+  .logoBarras{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .logo img{
+    width: 50px;
+  }
+  .nav-links span{
+    display: none;
+  }
+
+  .menu_contenedor {
+    padding: 10px 10px;
+    position: relative;
+    text-align: center;
+  }
+  .menu ul {
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    right: 130%;
+    z-index: 100;
+    width: 90%;
+    background: linear-gradient(to right, var(--primario), var(--secundario));
+    transition: all .6s linear;
+    padding: 30px;
+  }
+  .menu ul li {
+    border-bottom: 2px dotted var(--terciario);
+  }
+  .menu ul li a {
+    color: var(--gris);
+  }
+  .menu {
+    .abrir_menu {
+      right: 0;
+    }
+  }
+}
+
+
+@media screen and (max-width: 457px) {
+  .menu ul {
+    top: 35%;
+  }
+}
