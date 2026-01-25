@@ -16,7 +16,7 @@
   <body>
     <!-- Hero -->
     <header class="menu_contenedor">
-      <div class="logoBarras">
+      <d4iv class="logoBarras">
         <div class="logo">
           <img src="CSS/imagenes/logoBlanco.png" alt="Logo portafolio web" />
           <p>Denni Cen</p>
@@ -24,7 +24,7 @@
         <div class="menu-icon" id="iconomenu">
           <i class="fas fa-bars"></i>
         </div>
-      </div>
+      </d4iv>
       <nav class="menu">
         <ul id="contenedor_menu" class="nav-links">
           <li><a class="cierra" href="index.html">Inicio</a></li>
@@ -55,11 +55,13 @@
       <div id="sobreMi" class="sobre-texto">
         <h2>Sobre mí</h2>
         <p>
-          Soy un apasionado por la tecnología y el cine 🎬. Me encanta crear
-          aplicaciones web que mezclen diseño moderno con funcionalidad. Siempre
-          estoy buscando aprender nuevas tecnologías y mejorar mis proyectos.
-          Cuando no estoy programando, disfruto de una buena película, música o
-          un videojuego.
+          <strong>Ingeniero en sistemas conputacionales</strong> egresado del
+          <strong> Instituto Tecnológico de Mérida</strong> con la especialidad
+          de <strong>programación web y aplicaciones móviles</strong>, soy un
+          apasionado por la tecnología. Me encanta crear aplicaciones web que
+          mezclen diseño moderno con funcionalidad. Siempre estoy buscando
+          aprender nuevas tecnologías. Cuando no estoy programando, disfruto de
+          una buena película, música o un videojuego.
         </p>
         <h2>Tecnologías</h2>
         <div class="sobre-datos">
@@ -108,17 +110,34 @@
     <!-- sección de proyectos -->
     <h2 class="titulo" id="proyectos">Proyectos</h2>
     <section class="cardContainer">
+      <!-- INICIO CARD -->
       <div class="card">
         <img
-          src="CSS/imagenes/proyecto1.png"
-          alt="Imagen del primer proyecto"
+          src="CSS/imagenes/proyectoUNO/proyectoUNO1.png"
+          class="lightbox-trigger"
+          data-images="CSS/imagenes/proyectoUNO/proyectoUNO1.png,CSS/imagenes/proyectoUNO/proyectoUNO2.png,CSS/imagenes/proyectoUNO/proyectoUNO3.png,
+CSS/imagenes/proyectoUNO/proyectoUNO4.png,
+CSS/imagenes/proyectoUNO/proyectoUNO5.png,
+CSS/imagenes/proyectoUNO/proyectoUNO6.png,
+CSS/imagenes/proyectoUNO/proyectoUNO7.png,
+CSS/imagenes/proyectoUNO/proyectoUNO8.png,
+CSS/imagenes/proyectoUNO/proyectoUNO9.png,
+CSS/imagenes/proyectoUNO/proyectoUNO10.png,
+CSS/imagenes/proyectoUNO/proyectoUNO11.png,
+CSS/imagenes/proyectoUNO/proyectoUNO12.png,"
+          alt="Proyecto 1"
         />
         <div class="cardContent">
           <h3>E-commerce: La Casa Del Aluminio</h3>
-          <p>Proyecto de prácticas profesionales</p>
+          <p>
+            Aplicación web desarrollada con <b>Django, html5, CSS3, JavaScript y Bootstrap</b> como parte de mí
+            proyecto de prácticas profesionales, enfocada en la gestión y venta
+            de productos de aluminio.
+          </p>
           <a href="#" class="btnReadMore">Ver Más</a>
         </div>
       </div>
+      <!-- FIN CARD -->
       <div class="card">
         <img
           src="CSS/imagenes/proyecto1.png"
@@ -225,21 +244,15 @@
           required
         ></textarea>
 
-        <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+        <button class="btnContacto" type="submit">
+          <i class="fas fa-paper-plane"></i> Enviar
+        </button>
       </form>
     </section>
     <!-- Footer -->
     <footer>
       <p>© 2026 Denni Cen - Todos los derechos reservados</p>
     </footer>
-    <script>
-      /* para que se oculte el menu */
-      $("#iconomenu").click(function () {
-        $("#contenedor_menu").toggleClass("abrir_menu");
-      });
-      $(".cierra").click(function () {
-        $("#contenedor_menu").toggleClass("abrir_menu");
-      });
-    </script>
+    <script src="app.js"></script>
   </body>
 </html>
