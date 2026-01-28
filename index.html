@@ -190,7 +190,7 @@ CSS/imagenes/proyectoUNO/proyectoUNO12.png,"
     <!-- sección de contacto -->
     <h2 class="titulo" id="contacto">Ponte en contacto conmigo</h2>
     <section class="container">
-      <form id="contactForm">
+      <form id="contactForm" action="https://formsubmit.co/dcen755@gmail.com" method="POST">
         <label for="name"
           ><i class="fas fa-user"></i> Nombre<span class="obligado">
             *</span
@@ -228,6 +228,19 @@ CSS/imagenes/proyectoUNO/proyectoUNO12.png,"
           id="email"
           name="email"
           placeholder="Email@gmail.com"
+          required
+        />
+
+        <label for="subject"
+          ><i class="fa-solid fa-paperclip"></i> Asunto<span class="obligado">
+            *</span
+          ></label
+        >
+        <input
+          type="text"
+          id="name"
+          name="subject"
+          placeholder="Escribe el asunto"
           required
         />
 
