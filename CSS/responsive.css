@@ -57,6 +57,31 @@
       right: 0;
     }
   }
+  /* lithbox */
+  .lightbox img {
+  max-width: 90%;
+  max-height: 80%;
+}
+
+.lightbox button {
+  width: 30%;
+}
+
+.lightbox .prev {
+  bottom: 25%;
+  left: 30px;
+}
+
+.lightbox .next {
+  bottom: 25%;
+  right: 30px;
+}
+
+.lightbox .close {
+  bottom: 380px;
+  width: 50px;
+}
+
 }
 
 
