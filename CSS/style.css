@@ -66,7 +66,7 @@ nav ul li a:hover {
 }
 
 /* ===== Sección Sobre mí ===== */
-.sobre-mi {
+.sobre-mi{
   max-width: 1200px;
   margin: 40px auto;
   padding: 20px;
@@ -92,7 +92,7 @@ nav ul li a:hover {
   transition: transform 0.3s;
 }
 
-.sobre-img a {
+.sobre-img .cv {
   display: inline-block;
   margin-top: 20px;
   list-style: none;
@@ -102,14 +102,13 @@ nav ul li a:hover {
   text-decoration: none;
   color: var(--terciario);
 }
-.sobre-img a:hover {
+.sobre-img .cv:hover {
   background-color: var(--cardhover);
   color: var(--terciario);
 }
 
 .sobre-texto {
   flex: 2;
-  
 }
 
 .sobre-texto h2 {
@@ -121,6 +120,27 @@ nav ul li a:hover {
 .sobre-texto p {
   font-size: 1.2rem;
   margin-bottom: 20px;
+}
+/* ===== redes ===== */
+.redes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redes a{
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+
+.redes i{
+  padding: 10px;
+  font-size: 2.5rem;
+  color: var(--terciario);
+}
+
+.redes i:hover{
+  color: var(--cardhover);
 }
 
 /* ===== Datos en tarjetas ===== */

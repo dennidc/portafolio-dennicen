@@ -40,16 +40,20 @@
       <h1>Denni Abdiel Cen Cen</h1>
       <p>Ingeniero en sistemas computacionales</p>
     </header>
-
     <!-- Sobre mí -->
     <section class="sobre-mi">
       <div class="sobre-img">
         <img src="CSS/imagenes/perfil.png" alt="Foto de perfil" />
-        <a
+        <a class="cv"
           href="/CSS/archivos/Cen_Cen_Denni_Abdiel_CV.pdf"
           download="Denni_Abdiel_Cen_Cen_CV"
           >Descargar CV <i class="fa-regular fa-file-pdf"></i>
         </a>
+        <br><br>
+        <div class="redes">
+          <a href="https://github.com/dennidc/" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/dennicen/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
       </div>
 
       <div id="sobreMi" class="sobre-texto">
@@ -113,7 +117,7 @@
       <!-- INICIO CARD -->
       <div class="card">
         <img
-          src="CSS/imagenes/proyectoUNO/proyectoUNO1.png"
+          src="CSS/imagenes/proyectoUNO/proyecto1.png"
           class="lightbox-trigger"
           data-images="CSS/imagenes/proyectoUNO/proyectoUNO1.png,CSS/imagenes/proyectoUNO/proyectoUNO2.png,CSS/imagenes/proyectoUNO/proyectoUNO3.png,
 CSS/imagenes/proyectoUNO/proyectoUNO4.png,
@@ -122,15 +126,19 @@ CSS/imagenes/proyectoUNO/proyectoUNO6.png,
 CSS/imagenes/proyectoUNO/proyectoUNO7.png,
 CSS/imagenes/proyectoUNO/proyectoUNO8.png,
 CSS/imagenes/proyectoUNO/proyectoUNO9.png,
+CSS/imagenes/proyectoUNO/proyectoUNO13.png,
+CSS/imagenes/proyectoUNO/proyectoUNO14.png,
+CSS/imagenes/proyectoUNO/proyectoUNO15.png,
 CSS/imagenes/proyectoUNO/proyectoUNO10.png,
 CSS/imagenes/proyectoUNO/proyectoUNO11.png,
-CSS/imagenes/proyectoUNO/proyectoUNO12.png,"
+CSS/imagenes/proyectoUNO/proyectoUNO24.png,"
           alt="Proyecto 1"
         />
         <div class="cardContent">
           <h3>E-commerce: La Casa Del Aluminio</h3>
           <p>
-            Aplicación web desarrollada con <b>Django, html5, CSS3, JavaScript y Bootstrap</b> como parte de mí
+            Aplicación web desarrollada con
+            <b>Django, html5, CSS3, JavaScript y Bootstrap</b> como parte de mí
             proyecto de prácticas profesionales, enfocada en la gestión y venta
             de productos de aluminio.
           </p>
@@ -190,8 +198,16 @@ CSS/imagenes/proyectoUNO/proyectoUNO12.png,"
     <!-- sección de contacto -->
     <h2 class="titulo" id="contacto">Ponte en contacto conmigo</h2>
     <section class="container">
-      <form id="contactForm" action="https://formsubmit.co/dcen755@gmail.com" method="POST">
-        <input type="hidden" name="_next" value="https://dennidc.github.io/portafolio-dennicen/">
+      <form
+        id="contactForm"
+        action="https://formsubmit.co/dcen755@gmail.com"
+        method="POST"
+      >
+        <input
+          type="hidden"
+          name="_next"
+          value="https://dennidc.github.io/portafolio-dennicen/"
+        />
         <label for="name"
           ><i class="fas fa-user"></i> Nombre<span class="obligado">
             *</span
