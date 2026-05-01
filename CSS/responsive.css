@@ -12,20 +12,20 @@
     display: block;
     font-size: 40px;
   }
-  .logoBarras{
+  .logoBarras {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .logo{
+  .logo {
     display: flex;
     justify-content: center;
     align-items: flex-start;
   }
-  .logo img{
+  .logo img {
     width: 50px;
   }
-  .nav-links span{
+  .nav-links span {
     display: none;
   }
 
@@ -43,7 +43,7 @@
     z-index: 100;
     width: 90%;
     background: linear-gradient(to right, var(--primario), var(--secundario));
-    transition: all .6s linear;
+    transition: all 0.6s linear;
     padding: 30px;
   }
   .menu ul li {
@@ -59,37 +59,96 @@
   }
   /* lithbox */
   .lightbox img {
-  max-width: 90%;
-  max-height: 80%;
-}
+    max-width: 90%;
+    max-height: 80%;
+  }
 
-.lightbox button {
-  width: 30%;
-}
+  .lightbox button {
+    width: 30%;
+  }
 
-.lightbox .prev {
-  bottom: 18%;
-  left: 30px;
-}
+  .lightbox .prev {
+    bottom: 18%;
+    left: 30px;
+  }
 
-.lightbox .next {
-  bottom: 18%;
-  right: 30px;
-}
+  .lightbox .next {
+    bottom: 18%;
+    right: 30px;
+  }
 
-.lightbox .close {
-  bottom: 480px;
-  width: 50px;
-}
+  .lightbox .close {
+    bottom: 480px;
+    width: 50px;
+  }
 
-/* tecnologias */
-.sobre-datos {
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 10px;
-}
+  /* tecnologias */
+  .sobre-datos {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+  }
+  /* APARTADO ECOMMERCE */
+    /* CONTENEDOR */
+  .galeria {
+    padding: 10px;
+  }
 
-}
+  .galeria h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
 
+  /* GRID */
+  .galeria-grid {
+    grid-template-columns: 1fr; /* 2 columnas */
+    gap: 15px;
+  }
+
+  /* CARDS */
+  .galeria-item {
+    border-radius: 10px;
+  }
+
+  .galeria-item img {
+    height: 200px;
+  }
+
+  /* OVERLAY */
+  .overlay {
+    transform: translateY(0); /* visible siempre */
+    background: rgba(13, 27, 42, 0.9);
+    padding: 12px;
+  }
+
+  .overlay h3 {
+    font-size: 1rem;
+  }
+
+  .overlay p {
+    font-size: 0.85rem;
+  }
+
+  /* MODAL */
+  .modal {
+    padding-top: 40px;
+  }
+
+  .modal-img {
+    max-width: 95%;
+    max-height: 60vh;
+  }
+
+  #textoModal {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .cerrar {
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+  }
+}
 
 @media screen and (max-width: 457px) {
   .menu ul {

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/2ebd543e82.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="icon" type="image/jpg" href="/CSS/imagenes/Logo.png" />
+    <title>Proyecto 1 - E-commerce: La Casa Del Aluminio</title>
+  </head>
+  <body>
+    <!-- Hero -->
+    <header class="menu_contenedor">
+      <div class="logoBarras">
+        <div class="logo">
+          <img src="CSS/imagenes/logoBlanco.png" alt="Logo portafolio web" />
+          <p>Denni Cen</p>
+        </div>
+        <div class="menu-icon" id="iconomenu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <nav class="menu">
+        <ul id="contenedor_menu" class="nav-links">
+          <li><a class="cierra" href="index.html">Inicio</a></li>
+          <span>|</span>
+          <li><a class="cierra" href="#sobreMi">Sobre Mí</a></li>
+          <span>|</span>
+          <li><a class="cierra" href="#proyectos">Proyectos</a></li>
+          <span>|</span>
+          <li><a class="cierra" href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+<hr>
+<h1>Denni Abdiel Cen Cen</h1>
+      <p>Ingeniero en sistemas computacionales</p>
+    </header>
+
+<section class="galeria">
+  <h2>Galería del E-commerce</h2>
+
+  <div class="galeria-grid">
+
+    <div class="galeria-item">
+      <img src="CSS/imagenes/proyectoUNO/proyectoUNO1.png" loading="lazy" alt="Inicio del sistema">
+      <div class="overlay">
+        <h3>Inicio</h3>
+        <p>Página principal del e-commerce con productos destacados.</p>
+      </div>
+    </div>
+
+    <div class="galeria-item">
+      <img src="CSS/imagenes/proyectoUNO/proyectoUNO2.png" alt="Inicio del sistema">
+      <div class="overlay">
+        <h3>Vista del producto</h3>
+        <p>Página donde se muestra el producto al cliente</p>
+      </div>
+    </div>
+
+    <div class="galeria-item">
+      <img src="CSS/imagenes/proyectoUNO/proyectoUNO3.png" alt="Carrito">
+      <div class="overlay">
+        <h3>Carrito</h3>
+        <p>Vista del carrito con resumen de compra.</p>
+      </div>
+    </div>
+
+    <div class="galeria-item">
+      <img src="CSS/imagenes/proyectoUNO/proyectoUNO5.png" alt="Checkout">
+      <div class="overlay">
+        <h3>Checkout</h3>
+        <p>Proceso de pago integrado con Stripe.</p>
+      </div>
+    </div>
+
+    <div class="galeria-item">
+      <img src="CSS/imagenes/proyectoUNO/proyectoUNO7.png" alt="Checkout">
+      <div class="overlay">
+        <h3>Resumen de compra completada</h3>
+        <p>Vista de la compra realizada con éxito.</p>
+      </div>
+    </div>
+
+    <div class="galeria-item">
+      <img src="CSS/imagenes/proyectoUNO/proyectoUNO8.png" alt="Checkout">
+      <div class="overlay">
+        <h3>Historial de pedido</h3>
+        <p>Muestra las compras realizadas por el cliente, en donde si el pedido aún no es compleatado puede cancelar, de lo contrario el botón se desactiva y se muestra la leyenda "Pedido completado" </p>
+      </div>
+    </div>
+    <div class="galeria-item">
+      <img src="CSS/imagenes/proyectoUNO/proyectoUNO13.png" alt="Checkout">
+      <div class="overlay">
+        <h3>Vista de los datos del usuario</h3>
+        <p>Muestra el perfil del usuario al crear la cuenta en el e-commerce, donde puede cambiar su contraseña y ver sus pedidos realizados" </p>
+      </div>
+    </div>
+    <div class="galeria-item">
+      <img src="CSS/imagenes/proyectoUNO/proyectoUNO11.png" alt="Admin">
+      <div class="overlay">
+        <h3>Panel Admin</h3>
+        <p>Gestión de productos y pedidos.</p>
+      </div>
+    </div>
+
+    <div class="galeria-item">
+      <img src="CSS/imagenes/proyectoUNO/proyectoUNO12.png" alt="Admin">
+      <div class="overlay">
+        <h3>Formulario para dar de alta un producto</h3>
+        <p>Vista del administrador para dar de alta un producto para la visualización del cliente.</p>
+      </div>
+    </div>
+
+  </div>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <span class="cerrar">&times;</span>
+  <img class="modal-img" id="imgGrande">
+  <div id="textoModal"></div>
+</div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 Denni Cen - Todos los derechos reservados</p>
+    </footer>
+    <script src="app.js"></script>
+
+  </body>
+</html>
