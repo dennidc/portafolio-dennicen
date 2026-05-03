@@ -102,6 +102,7 @@
   .galeria-grid {
     grid-template-columns: 1fr; /* 2 columnas */
     gap: 15px;
+    justify-items: center;
   }
 
   /* CARDS */
@@ -117,7 +118,6 @@
   .overlay {
     transform: translateY(0); /* visible siempre */
     background: rgba(13, 27, 42, 0.9);
-    padding: 12px;
   }
 
   .overlay h3 {
