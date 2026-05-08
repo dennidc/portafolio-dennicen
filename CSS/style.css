@@ -97,6 +97,12 @@ p.subtitulo{
 }
 
 /* ===== Sección Sobre mí ===== */
+.destacado{
+  color: var(--secundario);
+  text-shadow: 0px 0px 2px var(--terciario),
+    0px 0px 2px var(--terciario),
+    0px 0px 2px var(--terciario);
+}
 .sobre-mi {
   max-width: 1200px;
   margin: 40px auto;
@@ -132,9 +138,10 @@ p.subtitulo{
   border-radius: 15px;
   text-decoration: none;
   color: var(--terciario);
+  transition: box-shadow 0.3s ease, color 0.3s ease;
 }
 .sobre-img .cv:hover {
-  background-color: var(--cardhover);
+  box-shadow: 0px 0px 8px var(--secundario);
   color: var(--terciario);
 }
 
@@ -145,7 +152,7 @@ p.subtitulo{
 .sobre-texto h2 {
   font-size: 28px;
   margin-bottom: 15px;
-  color: var(--secundario);
+  color: var(--terciario);
 }
 
 .sobre-texto p {
@@ -168,10 +175,11 @@ p.subtitulo{
   padding: 10px;
   font-size: 2.5rem;
   color: var(--terciario);
+  transition: text-shadow 0.3s ease;
 }
 
 .redes i:hover {
-  color: var(--cardhover);
+  text-shadow: 0px 0px 15px var(--secundario);
 }
 
 /* ===== Datos en tarjetas ===== */
@@ -364,12 +372,12 @@ form .btnContacto {
   color: var(--terciario);
   font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s ease;
   position: relative;
 }
 
 form .btnContacto:hover {
-  background-color: var(--cardhover);
+  box-shadow: 0px 0px 8px var(--secundario);
 }
 .obligado {
   font-size: 1.1rem;
