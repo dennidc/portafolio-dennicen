@@ -22,7 +22,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/CSS/imagenes/fondo.jpg");
+  background-image: url("../CSS/imagenes/fondo.jpg");
   background-size: cover;
   background-position: center;
   opacity: 0.05;
@@ -49,6 +49,7 @@ header {
   border-bottom: 1px solid var(--cardhover);
   padding: 20px 20px;
   text-align: center;
+  box-shadow: 0px 0px 8px var(--secundario);
 }
 
 header h1 {
@@ -88,6 +89,10 @@ nav ul li a:hover {
 .titulo {
   text-align: center;
   font-size: 42px;
+}
+.subTitulo{
+  text-align: center;
+  font-size: 25px;
 }
 
 /* ===== Sección Sobre mí ===== */
@@ -176,11 +181,13 @@ nav ul li a:hover {
 }
 
 .dato {
-  background: var(--fondo-card);
+  /* background: var(--fondo-card); */
+  backdrop-filter: blur(5px);
   padding: 20px;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); */
+  box-shadow: 0px 0px 3px var(--secundario);
   transition: 0.3s;
 }
 
@@ -378,6 +385,10 @@ form .btnContacto:hover {
   margin-bottom: 30px;
   font-size: 2rem;
 }
+.leyenda{
+  margin-bottom: 55px;
+  font-size: 18px;
+}
 
 .galeria-grid {
   display: grid;
@@ -392,8 +403,9 @@ form .btnContacto:hover {
   border-radius: 5px;
   width: 90%;
   cursor: pointer;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
-  border: 1px solid var(--border);
+  /* box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5); */
+  /* border: 1px solid var(--border); */
+  box-shadow: 0px 0px 8px var(--secundario);
 }
 
 .galeria-item img {
