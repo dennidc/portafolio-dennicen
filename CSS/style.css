@@ -91,15 +91,16 @@ nav ul li a:hover {
   font-size: 42px;
 }
 
-p.subtitulo{
+p.subtitulo {
   text-align: center;
   font-size: 25px;
 }
 
 /* ===== Sección Sobre mí ===== */
-.destacado{
+.destacado {
   color: var(--secundario);
-  text-shadow: 0px 0px 2px var(--terciario),
+  text-shadow:
+    0px 0px 2px var(--terciario),
     0px 0px 2px var(--terciario),
     0px 0px 2px var(--terciario);
 }
@@ -138,7 +139,9 @@ p.subtitulo{
   border-radius: 15px;
   text-decoration: none;
   color: var(--terciario);
-  transition: box-shadow 0.3s ease, color 0.3s ease;
+  transition:
+    box-shadow 0.3s ease,
+    color 0.3s ease;
 }
 .sobre-img .cv:hover {
   box-shadow: 0px 0px 8px var(--secundario);
@@ -394,7 +397,7 @@ form .btnContacto:hover {
   margin-bottom: 30px;
   font-size: 2rem;
 }
-.leyenda{
+.leyenda {
   margin-bottom: 55px;
   font-size: 18px;
 }

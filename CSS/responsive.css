@@ -12,7 +12,7 @@
     display: block;
     font-size: 40px;
   }
-  .menu_contenedor h1{
+  .menu_contenedor h1 {
     font-size: 45px;
   }
   .logoBarras {
@@ -91,7 +91,7 @@
     gap: 10px;
   }
   /* APARTADO ECOMMERCE */
-    /* CONTENEDOR */
+  /* CONTENEDOR */
   .galeria {
     padding: 10px;
   }
