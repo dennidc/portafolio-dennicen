@@ -1,3 +1,5 @@
+/* para las animaciones con wow */
+new WOW().init();
 /* para que se oculte el menu */
 $("#iconomenu").click(function () {
   $("#contenedor_menu").toggleClass("abrir_menu");
@@ -31,3 +33,4 @@ window.onclick = (e) => {
     modal.style.display = "none";
   }
 };
+
