@@ -108,7 +108,7 @@ p.subtitulo {
   max-width: 1200px;
   margin: 40px auto;
   padding: 20px;
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   /* align-items: center; */
   gap: 40px;
@@ -117,7 +117,9 @@ p.subtitulo {
 
 .sobre-img {
   flex: 1;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sobre-img img {
@@ -132,6 +134,7 @@ p.subtitulo {
 
 .sobre-img .cv {
   display: inline-block;
+  font-size: 1.2rem;
   margin-top: 20px;
   list-style: none;
   background-color: var(--secundario);
@@ -150,17 +153,23 @@ p.subtitulo {
 
 .sobre-texto {
   flex: 2;
+  font-size: 25px;
+  text-align: center;
 }
 
 .sobre-texto h2 {
-  font-size: 28px;
+  /* font-size: 28px; */
   margin-bottom: 15px;
   color: var(--terciario);
 }
 
 .sobre-texto p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 20px;
+  text-align: justify;
+}
+.sobre-datos p{
+  text-align: center;
 }
 /* ===== redes ===== */
 .redes {
@@ -176,7 +185,7 @@ p.subtitulo {
 
 .redes i {
   padding: 10px;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--terciario);
   transition: text-shadow 0.3s ease;
 }
@@ -190,10 +199,12 @@ p.subtitulo {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+  margin-top: 40px;
 }
 
 .dato {
   /* background: var(--fondo-card); */
+  text-align: center;
   backdrop-filter: blur(5px);
   padding: 20px;
   border-radius: 12px;
