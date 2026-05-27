@@ -1,4 +1,4 @@
-🚀Portafolio Denni Ceb
+🚀Portafolio Denni Cen
 
 Portafolio profesional de desarrollador full stack. Diseño moderno y responsive.
 
