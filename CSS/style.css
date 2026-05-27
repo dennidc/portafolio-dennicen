@@ -281,6 +281,22 @@ p.subtitulo {
   margin: 5px;
   font-size: 0.8rem;
 }
+.btnProyecto {
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 2px;
+  color: var(--terciario);
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+  background: color-mix(in srgb, var(--secundario), transparent 80%);
+}
+.regresar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
 
 .btnReadMore {
   display: inline-block;
@@ -400,7 +416,7 @@ form .btnContacto:hover {
 
 /* ESTILOS DEL APARTADO ECCOMERCE */
 .galeria {
-  padding: 50px;
+  padding: 20px;
   text-align: center;
 }
 
