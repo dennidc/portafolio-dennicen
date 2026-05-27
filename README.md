@@ -33,5 +33,5 @@ Portafolio personal donde muestro mis proyectos, habilidades y experiencia como 
 ---
 👨‍💻 Autor
 Denni Cen - Ing. en Sitemas Computacionales
-LinkedIn: [Tu LinkedIn]([https://linkedin.com/](https://www.linkedin.com/in/dennicen/))
+LinkedIn: [Tu LinkedIn](https://www.linkedin.com/in/dennicen/)
 ---
