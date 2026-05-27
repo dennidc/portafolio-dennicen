@@ -33,11 +33,5 @@ Portafolio personal donde muestro mis proyectos, habilidades y experiencia como 
 ---
 👨‍💻 Autor
 Denni Cen - Ing. en Sitemas Computacionales
+LinkedIn: [Tu LinkedIn]([https://linkedin.com/](https://www.linkedin.com/in/dennicen/))
 ---
-
-## 👨‍💻 Autor
-
-**Denni Zen** – Desarrollador Web
-
-- GitHub: [@tuusuario](https://github.com/tuusuario)
-- LinkedIn: [Tu LinkedIn](https://linkedin.com/)
