@@ -4,7 +4,6 @@
   
   <p>
     <a href="https://dennidc.github.io/portafolio-dennicen/" target="_blank">
-      <img src="https://shields.io" alt="Live Demo">
     </a>
   </p>
 </div>
