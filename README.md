@@ -18,9 +18,10 @@ Portafolio profesional con diseño moderno y *responsive*. Este espacio está di
 ## 🛠 Tecnologías
 
 <div align="left">
-  <img src="https://shields.io" alt="HTML5">
-  <img src="https://shields.io" alt="CSS3">
-  <img src="https://shields.io" alt="JavaScript">
+  <p>HTML5</p>
+  <p>CSS3</p>
+  <p>JavaScript</p>
+  <p>JQuery</p>
 </div>
 
 ---
