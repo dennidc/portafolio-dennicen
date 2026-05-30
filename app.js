@@ -7,21 +7,7 @@ $("#iconomenu").click(function () {
 $(".cierra").click(function () {
   $("#contenedor_menu").toggleClass("abrir_menu");
 });
-window.addEventListener("load", () => {
-    const params = new URLSearchParams(window.location.search);
 
-    if (params.get("success") === "true") {
-      Swal.fire({
-        icon: "success",
-        title: "¡Mensaje enviado!",
-        text: "Gracias por contactarme.",
-        confirmButtonText: "Aceptar"
-      });
-
-      // Limpia la URL para quitar ?success=true
-      window.history.replaceState({}, document.title, window.location.pathname);
-    }
-  });
 const items = document.querySelectorAll(".galeria-item");
 const modal = document.getElementById("modal");
 const imgGrande = document.getElementById("imgGrande");
