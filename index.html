@@ -194,10 +194,10 @@
           <h3>Landin Page "Handyman Electrician & Plumbing Repair"</h3>
           <hr />
           <p>
-            La landing page presenta información sobre los servicios
-            ofrecidos, testimonios de clientes satisfechos, un formulario de
-            contacto para solicitar presupuestos y una sección de preguntas
-            frecuentes para resolver dudas comunes.
+            La landing page presenta información sobre los servicios ofrecidos,
+            testimonios de clientes satisfechos, un formulario de contacto para
+            solicitar presupuestos y una sección de preguntas frecuentes para
+            resolver dudas comunes.
           </p>
           <div class="tecnologias">
             <p>CSS</p>
@@ -241,11 +241,12 @@
         id="contactForm"
         action="https://formsubmit.co/dcen755@gmail.com"
         method="POST"
+        onsubmit="sendMessage(event)"
       >
         <input
           type="hidden"
           name="_next"
-          value="https://dennidc.github.io/portafolio-dennicen/"
+          value="https://dennidc.github.io/portafolio-dennicen/?success=true"
         />
         <label for="name"
           ><i class="fas fa-user"></i> Nombre<span class="obligado">
@@ -322,6 +323,7 @@
     <footer>
       <p>© 2026 Denni Cen - Todos los derechos reservados</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="app.js"></script>
   </body>
